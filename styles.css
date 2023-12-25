@@ -23,7 +23,7 @@ button {
   font-weight: bolder;
   color: #1f2937;
 }
-.quote_section_ {
+.quote_section {
   background-color: #e5e7eb;
 }
 .quote_text {
@@ -31,3 +31,5 @@ button {
   font-weight: light;
   color: #1f2937;
 }
+
+div.pic
