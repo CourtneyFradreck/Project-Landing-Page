@@ -18,3 +18,16 @@ button {
   background-color: #3382f6;
   color: #f9faf8;
 }
+.information_header_text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.quote_section_ {
+  background-color: #e5e7eb;
+}
+.quote_text {
+  font-size: 36px;
+  font-weight: light;
+  color: #1f2937;
+}
