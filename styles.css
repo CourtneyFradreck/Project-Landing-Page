@@ -1,5 +1,6 @@
 div.header {
   background-color: #1f2937;
+  display: flex;
 }
 .hero_main_text {
   font-size: 48px;
@@ -14,9 +15,16 @@ div.header {
   font-size: 24px;
   color: #f9faf8;
 }
-button {
+.btn-for-singup {
   background-color: #3382f6;
   color: #f9faf8;
+  border-radius: 15px;
+  height: 36px;
+  width: 15%;
+}
+.class-btn {
+  background-color: #f9faf8;
+  color: #3382f6;
 }
 .information_header_text {
   font-size: 36px;
@@ -33,8 +41,8 @@ button {
 }
 
 div.pic {
-  width: 55%;
-  height: 45%;
+  width: 50%;
+  height: 250px;
   background-color: grey;
 }
 div.navbar {
@@ -45,16 +53,18 @@ ul li {
   color: #e5e7eb;
 }
 .flex-container {
+  /* height: 140px;*/
+  padding: 16px;
+  background: #fff;
   display: flex;
-  gap: 10px;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
-
-.flex-container div {
-  background: #fff;
+.item {
+  width: 100px;
+  height: 130px;
   border: 4px solid #3382f6;
-  height: 200px;
+  background: #fff;
   border-radius: 15px;
-  flex: 1;
 }
