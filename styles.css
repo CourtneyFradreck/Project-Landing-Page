@@ -3,6 +3,11 @@ div.header {
   display: flex;
   height: 250px;
 }
+div.wrapper {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
 .hero_main_text {
   font-size: 48px;
   font-weight: bolder;
@@ -58,9 +63,15 @@ div.pic {
 div.navbar {
   display: inline;
 }
-ul li {
+ul {
   display: inline;
   color: #e5e7eb;
+  text-decoration: none;
+}
+li {
+  display: inline-flex;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 .flex-container {
   /* height: 140px;*/
