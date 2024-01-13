@@ -102,4 +102,7 @@ li a {
 }
 .god_of_thunder {
   font-weight: bold;
+  font-style: normal;
+  display: flex;
+  justify-content: end;
 }
