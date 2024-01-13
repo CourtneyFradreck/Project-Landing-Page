@@ -106,3 +106,7 @@ li a {
   display: flex;
   justify-content: end;
 }
+.footer {
+  background-color: #3382f6;
+  color: #fff;
+}
