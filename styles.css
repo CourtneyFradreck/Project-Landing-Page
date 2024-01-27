@@ -63,7 +63,8 @@ div.pic {
   align-items: center;
 }
 div.navbar {
-  display: inline;
+  display: flex;
+  justify-content: space-between;
 }
 ul {
   display: inline;
