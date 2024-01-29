@@ -111,3 +111,11 @@ li a {
   background-color: #3382f6;
   color: #fff;
 }
+@media all and (max-width: 500px) {
+  div.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 100px;
+  }
+}
