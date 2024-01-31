@@ -29,8 +29,12 @@ div.wrapper {
   width: 15%;
 }
 .class-btn {
-  background-color: #f9faf8;
-  color: #3382f6;
+  background-color: #3382f6;
+  color: #f9faf8;
+  border-radius: 15px;
+  border-color: #f9faf8;
+  height: 36px;
+  width: 30%;
 }
 .hero-text {
   width: 50%;
@@ -117,6 +121,14 @@ li a {
   margin: 40px;
   padding-left: 30px;
 }
+.footer_btn {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 @media all and (max-width: 500px) {
   div.header {
     display: flex;
