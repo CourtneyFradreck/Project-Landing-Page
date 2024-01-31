@@ -111,6 +111,11 @@ li a {
 .footer {
   background-color: #3382f6;
   color: #fff;
+  display: flex;
+}
+.call-to-action {
+  margin: 40px;
+  padding-left: 30px;
 }
 @media all and (max-width: 500px) {
   div.header {
