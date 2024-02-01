@@ -116,6 +116,8 @@ li a {
   background-color: #3382f6;
   color: #fff;
   display: flex;
+  margin: 100px;
+  border-radius: 15px;
 }
 .call-to-action {
   margin: 40px;
